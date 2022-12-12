@@ -1,5 +1,3 @@
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)  [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-
 ### 功能
 
 使用 certbot 工具，为不能自动给 letencrypt 通配符证书自动续期（renew）而烦恼吗？这个工具能够帮忙！
@@ -150,15 +148,14 @@ $ ./certbot-auto renew --cert-name simplehttps.com  --manual-auth-hook "/脚本�
 - 华为云 python 版 @jinhucheung
 - GoDaddy PHP 版 wlx_1990 （2019-01-11）
 
-### 其他
 
-- 可以关注公众号（虞大胆的叽叽喳喳，yudadanwx），了解更多密码学&HTTPS协议知识。
-- 我写了一本书[《深入浅出HTTPS：从原理到实战》](https://mp.weixin.qq.com/s/80oQhzmP9BTimoReo1oMeQ)了解更多关于HTTPS方面的知识。**如果你觉得本书还可以，希望能在豆瓣做个点评，以便让更多人了解，非常感谢。豆瓣评论地址：[https://book.douban.com/subject/30250772/](https://book.douban.com/subject/30250772/)**
+### 更新说明
+#### 2022.12.12
+适配certbot docker镜像`certbot/certbot:v1.32.0`，详情参考[《使用Certbot申请泛域名证书》](https://www.voidking.com/dev-certbot-domain-certificate/)
 
-公众号二维码：
 
-![公众号：虞大胆的叽叽喳喳，yudadanwx](https://notes.newyingyong.cn/static/image/wxgzh/qrcode_258.jpg)
 
-《深入浅出HTTPS：从原理到实战》二维码：
 
-![深入浅出HTTPS：从原理到实战](https://notes.newyingyong.cn/static/image/httpsbook/httpsbook-small-jd.jpg)
+
+
+
