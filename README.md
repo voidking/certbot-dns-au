@@ -153,6 +153,9 @@ $ ./certbot-auto renew --cert-name simplehttps.com  --manual-auth-hook "/脚本�
 #### 2022.12.12
 适配certbot docker镜像`certbot/certbot:v1.32.0`，详情参考[《使用Certbot申请泛域名证书》](https://www.voidking.com/dev-certbot-domain-certificate/)
 
+#### 2023.07.26
+使用原始仓库PR94，[升级腾讯云脚本至 API 3.0](https://github.com/ywdblog/certbot-letencrypt-wildcardcertificates-alydns-au/pull/94)
+
 
 
 
